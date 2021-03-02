@@ -9,18 +9,36 @@
             <!-- header -->
             <header>
                 <a class="logo" href="#">Logo</a>
-            <nav>
-                 <ul class="nav-list">
-                  <li>
-                      <a class="nav-link Home" href="#">Home</a>
-                 </li>
-                 <li><a class="nav-link" href="#">Apps</a></li>
-                 <li>
-                     <a class="nav-link" href="#">Testimanials</a>
-                 </li>
-                  <li>
-                    <a class="nav-link" href="#">About us</a>
-                 </li>
-                </ul>
-            </nav>                    
+                <nav>
+                    <ul class="nav-list">
+                        <li class="dot">
+                            
+                        </li>
+                        <li class="vector" ><img src="img/Vector (2).svg" alt="vector">
+                            <ul class="secondary-list">
+                                <li>
+                                    <a class="nav-link " href="#">Account settings</a>
+                               </li>
+                               <li><a class="nav-link" href="#">Billing details</a></li>
+                               <li>
+                                   <a class="nav-link" href="#">Log ou</a>
+                               </li>
+                            </ul>
+                        </li>
+                     
+                      </ul>
+               </nav>                    
+
+                
            </header>
+
+
+           <form action="form" method="POST">
+            <select class="select" name="select" id="select">
+                
+               <p class="options"><option value="settings">Account settings</option>
+                <option value="billing">Billing details</option>
+                <option value="log">Log out</option></p> 
+            
+            </select>
+        </form>
