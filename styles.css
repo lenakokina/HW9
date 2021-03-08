@@ -74,40 +74,40 @@ body {
             border: 0;
             margin-right: 10px;
         }
-        .down {
-            width: 265px;
-            height: 207px;
+        .down {   
+             width: 265px;
+            height: 207px;        
             background-color: #6F7397;
             padding-top: 10px;
             padding-bottom: 10px;
             opacity: 0;
             visibility: hidden;
-            position: absolute;
-            right: 2px;
+            position: absolute;            
+            left: 1015px;
+            top: 68px;
 
         }
-        .secondary-list {
-             width: 265px;
-             height: 187px;
+        .secondary-list {   
+            width: 265px;
+            height: 187px;          
              background-color: #7B89BA;
              opacity: 0;
              visibility: hidden;
              padding: 16px 74px 31px 10px;
-             position: absolute;
-             right: 2px;            
-            
-        }
-          .list img {
-            position: relative;
-        }
-       .list img:hover .down {
+                         
+             left: 1015px;
+             top: 79px;
+            }
+
+          .list:hover .down {
             visibility: visible;
             opacity: 1;
         }
-        .list img:hover .secondary-list {
+        .list:hover .secondary-list {
             visibility: visible;
             opacity: 1;
         }
+        
        
              
         /* end header */
