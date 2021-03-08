@@ -27,17 +27,15 @@ body {
         }
 
         .header {
-        width: 1440px;
-       
+        width: 1440px;       
         margin-left: auto;
         margin-right: auto;
         padding: 29px 160px;       
         display: flex;
         justify-content: space-between;
         align-items: center;
-        background-color: #5C6F4E;   
-        
-          }
+        background-color: #5C6F4E;
+        }
           .logo {
               font-size: 36px;
               font-weight: 400;
@@ -45,7 +43,7 @@ body {
               color: white;
           }
 
-          .nav-link {
+          .link {
               font-size: 24px;
               font-weight: 400;
               line-height: 1.1;
@@ -59,7 +57,7 @@ body {
                .secondary-list li {
                 margin-bottom: 32px;
                }
-        .nav-list {
+        .list {
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -76,29 +74,6 @@ body {
             border: 0;
             margin-right: 10px;
         }
-        .secondary-list{
-             width: 265px;
-             height: 187px;
-             background-color: #7B89BA;
-             opacity: 0;
-             visibility: hidden;
-             padding: 16px 74px 31px 10px;
-             position: absolute;
-             right: 2px;
-             
-            
-        }
-        .vector {
-            position: relative;
-        }
-        .vector:hover .secondary-list {
-            visibility: visible;
-            opacity: 1;
-        }
-        .vector:hover .down {
-            visibility: visible;
-            opacity: 1;
-        }
         .down {
             width: 265px;
             height: 207px;
@@ -111,4 +86,28 @@ body {
             right: 2px;
 
         }
+        .secondary-list {
+             width: 265px;
+             height: 187px;
+             background-color: #7B89BA;
+             opacity: 0;
+             visibility: hidden;
+             padding: 16px 74px 31px 10px;
+             position: absolute;
+             right: 2px;            
+            
+        }
+          .list img {
+            position: relative;
+        }
+       .list img:hover .down {
+            visibility: visible;
+            opacity: 1;
+        }
+        .list img:hover .secondary-list {
+            visibility: visible;
+            opacity: 1;
+        }
+       
+             
         /* end header */
